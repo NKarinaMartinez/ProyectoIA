@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NeuroEvolution : Flappy Bird</title>
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+</head>
+<body>
+	<button class="btn">
+		<span><i class="fas fa-sun"></i></span>
+        <span><i class="fas fa-moon"></i></span>
+	</button>
+	<div class="caja-principal">
+		<canvas class="canvas" id="flappy" width="700" height="512"></canvas> <br/>
+		<button onclick="speed(60)">x1</button> 
+		<button onclick="speed(120)">x2</button> 
+		<button onclick="speed(180)">x3</button> 
+		<button onclick="speed(300)">x5</button> 
+		<button onclick="speed(0)">MAX</button> 
+		<br/>
+		<a class="link" href="https://github.com/NKarinaMartinez/Proyecto_de_Procesos.git">GitHub Repository</a>
+	</div>
+	<script src = "Neuroevolution.js"></script>
+	<script src = "game.js"></script>
+	<script src = "fondo.js"></script>
+</body>
+</html>
